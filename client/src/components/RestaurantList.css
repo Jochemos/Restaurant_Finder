@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.whole_Table {
+  font-family: 'Raleway', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+.whole_Table th {
+  font-size: 15px;
+  color: white;
+  background-color: #9950AA;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid #9978DC;
+}
+
+.whole_Table td {
+  background-color: #CCCCFF;
+  padding: 4.5px 0 4.5px 0;
+}
+
+tbody tr:hover td{
+  background-color: #E1E1FF;
+}
+
+tbody tr:hover button{
+  background-color: #CBCBFD;
+  border-color: #9568AE;
+}
+
+/* Buttons selectors */
+
+tbody button {
+  font-size: 10px;
+  max-width: 70px;
+  height: 30px;
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: #8846AE;
+  background-color: #B3B3FD;
+}
+
+tbody button:active{
+  background-color: #9292D2;
+}
+
+tbody .btn_update:active{
+  background-color: #4A8AD4;
+  color: #244265;
+  border-color: #244265;
+}
+
+tbody .btn_delete:active{
+  background-color: #971212;
+  color: #C05656;
+  border-color: #611313;
+}

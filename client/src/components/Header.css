@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.targetSubjectText{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-size: 50px;
+
+  padding-top: 15px;
+
+}
